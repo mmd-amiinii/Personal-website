@@ -1,0 +1,1688 @@
+/* macbook pro 14 */
+@media screen and (width: 1512px) {
+    /* menu codes */
+    .menu-container {
+        width: 700px;
+    }
+    .menu {
+        width: 650px;
+    }
+    .menu-link a {
+        font-size: 1.4rem;
+    }
+
+    /* header codes */
+    .hero-header-image {
+        width: 1347px;
+    }
+    .hero-header-texts .hello-text {
+        margin-top: 50px;
+        font-size: 9.6rem;
+    }
+    .hero-header-texts .my-name-text {
+        font-size: 4rem;
+    }
+
+    /* about codes */
+    .about-container {
+        padding: 3rem;
+    }
+    .about-container-image {
+        width: 555px;
+        height: 574px;
+    }
+    .about-texts .who-text {
+        font-size: 4.8rem;
+        top: 170px;
+    }
+    .indroducing-text {
+        font-size: 2rem;
+        top: 400px;
+    }
+
+    /* skill codes */
+    .skill-title {
+        font-size: 4.8rem;
+        top: 150px;
+    }
+    .skills-status-container div[class *="-icon-container"]{
+        width: 80px;
+        height: 80px;
+    }
+    .skills-status-container div[class *="-icon-container"] p{
+        font-size: 2rem;
+    }
+    .skills-status-container div[class *="-nav-container"]{
+        width: 400px;
+    }
+    .skills-status-container .percentage{
+        font-size: 2.4rem;
+    }
+
+    /* project codes */
+    .project-title {
+        font-size: 4.8rem;
+    }
+    .portfolio-container {
+        padding: 1rem;
+        height: 500px;
+        row-gap:48px;
+    }
+    .portfolio-container > div[class ^= "project-"] {
+        width: 450px;
+        height: 450px;
+    }
+    /* project-1 codes */
+    .project-1 .project-1-img {
+        width: 100px;
+        height: 100px;
+    }
+    .project-1 .project-1-circle-1 {
+        width: 110px;
+        height: 110px;
+    }
+    .project-1 .project-1-circle-2 {
+        width: 120px;
+        height: 120px;
+    }
+    .project-1 .project-1-quantity {
+        font-size: 1.8rem;
+    }
+    .project-1 .project-1-post-text, .project-1 .project-1-likes-text, .project-1 .project-1-follower-text {
+        font-size: 1.6rem;
+    }
+    /* project-2 codes */
+    .project-2 .project-2-first-section, .project-2 .project-2-second-section, .project-2 .project-2-third-section {
+        font-size: 1.6rem;
+    }
+    /* project-7 codes */
+    .project-7 .project-7-text {
+        font-size: 23px;
+    }
+    /* project-8 codes */
+    .project-8 .project-8-btn-container {
+        bottom: 30px;
+    }
+    /* show-more-btn */
+    .projects-container .show-more-project {
+        width: 180px;
+        height: 60px;
+    }
+    .projects-container .show-more-btn {
+        font-size: 2rem;
+    }
+    .projects-container .down-arrows-container .down-arrow-icon-1  {
+        top: -10px;
+    }
+    .projects-container .down-arrows-container .down-arrow-icon-2  {
+        top: 0px;
+    }
+
+
+    /* contact codes */
+    .contact-texts {
+        top: 100px;
+    }
+    .contact-container .contact-tilte {
+        font-size: 4rem;
+    }
+    .contact-container .contact-description {
+        font-size: 2rem;
+        margin-top: 30px;
+    }
+    .contact-container .contact-ways-container img[class *= "-icon"]{
+        width: 40px;
+        height: 40px;
+    }
+    .contact-container .social-media-container a[class *="-icon"] {
+        width: 35px;
+        height: 35px;
+    }
+    /* contact form codes */ 
+    .contact-container .contact-form-container {
+        width: 400px;
+        height: 600px;
+    }
+
+    .contact-container .form-title {
+        font-size: 2rem;
+    }
+    .contact-container .form-inputs-container label {
+        font-size: 1.6rem;
+    }
+    .contact-container .form-inputs-container input {
+        height: 45px;
+    }
+    .contact-container .user-message-container {
+        font-size: 1.4rem;
+    }
+    .contact-container .submit-btn-container .submit{
+        font-size: 1.6rem;
+    }
+    .contact-container .author-section .author {
+        font-size: 1.2rem;
+    }
+}
+
+/* macbook air */
+@media screen and (min-width : 1280px) and (max-width : 1511px) {
+    /* menu codes */
+    .menu-container {
+        width: 650px;
+        top: 20px;   
+    }
+    .menu {
+        width: 600px;
+    }
+    .menu li svg rect {
+        width: 97%;
+        x: 1;
+        height: 90%;
+    }
+    .menu-link a {
+        font-size: 1.4rem;
+    }
+
+    /* header codes */
+    .hero-header-image {
+        width: 1280px;
+        margin-top: -55px;
+    }
+    .hero-header-texts .hello-text {
+        margin-top: -30px;
+        font-size: 8rem;
+    }
+    .hero-header-texts .my-name-text {
+        font-size: 3.6rem;
+    }
+
+
+    /* about codes */
+    .about-container-image {
+        width: 500px;
+        height: 524px;
+    }
+    .about-texts .who-text {
+        font-size: 4.6rem;
+    }
+    .indroducing-text {
+        font-size: 2rem;
+    }
+    /* skill codes */
+    .skill-title {
+        font-size: 4.6rem;
+    }
+    .skills-status-container div[class *="-icon-container"]{
+        width: 75px;
+        height: 75px;
+    }
+    .skills-status-container div[class *="-icon-container"] p{
+        font-size: 1.8rem;
+    }
+    .skills-status-container div[class *="-icon-container"] img{
+        width: 40px;
+        height: 40px;
+    }
+    .skills-status-container div[class *="-nav-container"]{
+        width: 390px;
+    }
+    .skills-status-container .percentage{
+        font-size: 2.4rem;
+    }
+
+    /* project codes */
+    .project-title {
+        font-size: 4.6rem;
+    }
+    .portfolio-container {
+        padding: 1rem;
+        height: 450px;
+        row-gap: 75px;
+    }
+    .portfolio-container > div[class ^= "project-"] {
+        width: 375px;
+        height: 375px;
+    }
+    /* project-1 codes */
+    .project-1 .project-1-img {
+        width: 100px;
+        height: 100px;
+        top: -20px;
+    }
+    .project-1 .project-1-circle-1 {
+        top: 31px;
+        width: 110px;
+        height: 110px;
+    }
+    .project-1 .project-1-circle-2 {
+        top: 26px;
+        width: 120px;
+        height: 120px;
+    }
+    .project-1-buttons {
+        bottom: 10px;
+        position: relative;
+    }
+    .project-1 .project-1-quantity {
+        font-size: 1.8rem;
+    }
+    .project-1 .project-1-post-text, .project-1 .project-1-likes-text, .project-1 .project-1-follower-text {
+        font-size: 1.6rem;
+    }
+    /* project-2 codes */
+    .project-2 .project-2-first-section, .project-2 .project-2-second-section, .project-2 .project-2-third-section {
+        font-size: 1.4rem;
+    }
+    .project-2 .project-2-search-box {
+        width: 75%;
+    }
+    .project-2 .project-2-menu {
+        left: 60px;
+    }
+    .project-2 .project-2-title-text {
+        font-size: 18px;
+    }
+    .project-2 .magnify-icon {
+        font-size: 33px;
+    }
+    /* project-3 codes */
+    .project-3 .project-3-profile {
+        width: 120px;
+        height: 120px;
+        bottom: -35px;
+    }
+    .project-3 .project-3-action-buttons {
+        margin-top: 45%;
+    }
+    .project-3 .project-3-action-buttons div[calss *= "-btn"] {
+        width: 45px;
+        height: 45px;
+    }
+
+    /* project-5 */ 
+    .project-5 .project-5-display {
+        width: 300px;
+        height: 180px;
+    }
+    .project-5 .project-5-street  {
+        right: 82px;
+        bottom: 44px;
+    }
+    /* project-7 codes */
+    .project-7 .project-7-text {
+        font-size: 20px;
+    }
+    .project-7 .project-7-author-name {
+        font-size: 18px;
+    }
+    .project-7 .project-7-word-card{
+        width: 250px;
+        font-size: 14px;
+        left: -30px;
+    }
+    /* project-8 codes */
+    .project-8 .project-8-btn-container {
+        bottom: 30px;
+    }
+    .project-8 .project-8-collect , .project-8 .project-8-nothing {
+        font-size: 28px;
+    }
+    .project-8 .project-8-moments  {
+        font-size: 45px;
+    }
+    .project-8 .project-8-left-bracket {
+        left: 45px;
+    }
+    .project-8 .project-8-right-bracket {
+        right: 45px;
+    }
+    /* project-9 */
+    .project-9 .project-9-card-top {
+        height: 140px;
+    }
+    /* project-12 */
+    .project-12 .project-12-todo-container {
+        height: 300px;
+        width: 270px;
+    }
+    .project-12 .project-12-task-name p {
+        font-size: 14px;
+    }
+    /* show-more-btn */
+    .projects-container .show-more-project {
+        width: 180px;
+        height: 60px;
+    }
+    .projects-container .show-more-btn {
+        font-size: 2rem;
+    }
+    .projects-container .down-arrows-container .down-arrow-icon-1  {
+        top: -10px;
+    }
+    .projects-container .down-arrows-container .down-arrow-icon-2  {
+        top: 0px;
+    }
+    
+    /* contact codes */
+    .contact-container .contact-tilte {
+        font-size: 3.2rem;
+    }
+    .contact-container .contact-description {
+        font-size: 1.8rem;
+        margin-top: 30px;
+    }
+    .contact-container .contact-texts {
+        top: 80px;
+    }
+    .contact-container .contact-ways-container {
+        bottom: 220px;
+    }
+    .contact-container .contact-ways-container img[class *= "-icon"]{
+        width: 37px;
+        height: 37px;
+    }
+    .contact-container .social-media-container a[class *="-icon"] {
+        width: 34px;
+        height: 34px;
+    }
+    /* contact form codes */ 
+    .contact-container .contact-form-container {
+        width: 370px;
+        height: 570px;
+    }
+
+    .contact-container .form-title {
+        font-size: 2rem;
+    }
+    .contact-container .form-inputs-container label {
+        font-size: 1.6rem;
+    }
+    .contact-container .form-inputs-container input {
+        height: 45px;
+    }
+    .contact-container .user-message-container {
+        font-size: 1.4rem;
+    }
+    .contact-container .submit-btn-container .submit{
+        font-size: 1.6rem;
+    }
+    .contact-container .author-section .author {
+        font-size: 1.2rem;
+    }
+
+}
+
+
+/* ipad mini */
+@media screen and (min-width : 768px) and (max-width : 819px) {
+    /* menu codes */
+    .menu-container {
+        width: 600px;
+        top: 50px;   
+    }
+    .menu {
+        width: 550px;
+    }
+    .menu li svg rect {
+        width: 96%;
+        x: 1;
+        height: 90%;
+    }
+    .menu-link a {
+        font-size: 1.2rem;
+    }
+
+    /* header codes */
+    .hero-header-container {
+        min-height: 1024px;
+    }
+    .hero-header-container .laptop-img  {
+        display: none;
+    }
+    .hero-header-container .ipad-img  {
+        display: block;
+        width: 728px;
+        height: 1024px;
+    }
+    .hero-header-image {
+        width: 1280px;
+    }
+    .hero-header-texts {
+        top: 50%;
+        transform: translate(-50%, -40%);
+    }
+    .hero-header-texts .hello-text {
+        font-size: 8rem;
+    }
+    .hero-header-texts .my-name-text {
+        font-size: 3rem;
+    }
+
+
+    /* about codes */
+    .about-container {
+        padding: 0px 5rem;
+        min-height: 1024px;
+    }
+    .about-container .hero-header-image {
+        width: 728px !important;
+    }
+    .about-container .img-container {
+        width: 100%;
+        height: 1024px;
+    }
+    .about-container .about-texts {
+        width: 100%;
+        height: 100dvh;
+        left: 0px;
+        top: 0px;
+        position: absolute;
+    }
+    .about-container .who-text {
+        font-size: 4.2rem;
+        top: 80px;
+        text-align: center;
+    }
+    .about-container .indroducing-text {
+        font-size: 1.8rem;
+        top: 750px;
+        position: absolute;
+        width: 85%;
+        text-align: left;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .about-container-image {
+        width: 500px;
+        height: 524px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 150px;
+    }
+
+    /* skill codes */
+    .skills-container {
+        overflow-x: hidden;
+        min-height: 1024px;
+    }
+    .skill-title {
+        font-size: 4.2rem;
+        top: 100px;
+    }
+    .skills-status-container {
+        grid-template-columns: auto;
+        row-gap: 50px;
+    }
+    .skills-status-container div[class *="-icon-container"]{
+        width: 70px;
+        height: 70px;
+    }
+    .skills-status-container div[class *="-icon-container"] p{
+        font-size: 1.6rem;
+    }
+    .skills-status-container div[class *="-icon-container"] img{
+        width: 40px;
+        height: 40px;
+    }
+    .skills-status-container div[class *="-nav-container"]{
+        width: 390px;
+    }
+    .skills-status-container .percentage{
+        font-size: 2.2rem;
+    }
+
+    /* project codes */
+    .projects-container {
+        min-height: 1024px;
+    }
+    .projects-texts  {
+        height: 65px;
+        top: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .project-title {
+        font-size: 4.2rem;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .portfolio-container {
+        padding: 1rem;
+        height: 900px;
+        row-gap: 80px;
+        grid-template-columns: auto;
+        justify-content: center;
+        margin-top: 150px;
+    }
+    .portfolio-container > div[class ^= "project-"] {
+        width: 375px;
+        height: 375px;
+    }
+    /* project-1 codes */
+    .project-1 .project-1-img {
+        width: 100px;
+        height: 100px;
+        top: -20px;
+    }
+    .project-1 .project-1-circle-1 {
+        top: 31px;
+        width: 110px;
+        height: 110px;
+    }
+    .project-1 .project-1-circle-2 {
+        top: 26px;
+        width: 120px;
+        height: 120px;
+    }
+    .project-1-buttons {
+        bottom: 10px;
+        position: relative;
+    }
+    .project-1 .project-1-quantity {
+        font-size: 1.8rem;
+    }
+    .project-1 .project-1-post-text, .project-1 .project-1-likes-text, .project-1 .project-1-follower-text {
+        font-size: 1.6rem;
+    }
+    /* project-2 codes */
+    .project-2 .project-2-first-section, .project-2 .project-2-second-section, .project-2 .project-2-third-section {
+        font-size: 1.4rem;
+    }
+    .project-2 .project-2-search-box {
+        width: 75%;
+    }
+    .project-2 .project-2-menu {
+        left: 60px;
+    }
+    .project-2 .project-2-title-text {
+        font-size: 18px;
+    }
+    .project-2 .magnify-icon {
+        font-size: 33px;
+    }
+    /* project-3 codes */
+    .project-3 .project-3-profile {
+        width: 120px;
+        height: 120px;
+        bottom: -35px;
+    }
+    .project-3 .project-3-action-buttons {
+        margin-top: 45%;
+    }
+    .project-3 .project-3-action-buttons div[calss *= "-btn"] {
+        width: 45px;
+        height: 45px;
+    }
+
+    /* project-5 */ 
+    .project-5 .project-5-display {
+        width: 300px;
+        height: 180px;
+    }
+    .project-5 .project-5-street  {
+        right: 82px;
+        bottom: 44px;
+    }
+    /* project-7 codes */
+    .project-7 .project-7-text {
+        font-size: 20px;
+    }
+    .project-7 .project-7-author-name {
+        font-size: 18px;
+    }
+    .project-7 .project-7-word-card{
+        width: 250px;
+        font-size: 14px;
+        left: -30px;
+    }
+    /* project-8 codes */
+    .project-8 .project-8-btn-container {
+        bottom: 30px;
+    }
+    .project-8 .project-8-collect , .project-8 .project-8-nothing {
+        font-size: 28px;
+    }
+    .project-8 .project-8-moments  {
+        font-size: 45px;
+    }
+    .project-8 .project-8-left-bracket {
+        left: 45px;
+    }
+    .project-8 .project-8-right-bracket {
+        right: 45px;
+    }
+    /* project-9 */
+    .project-9 .project-9-card-top {
+        height: 140px;
+    }
+    /* project-12 */
+    .project-12 .project-12-todo-container {
+        height: 300px;
+        width: 270px;
+    }
+    .project-12 .project-12-task-name p {
+        font-size: 14px;
+    }
+    /* show-more-btn */
+    .projects-container .show-more-project {
+        width: 150px;
+        height: 50px;
+        bottom: 15px;
+    }
+    .projects-container .show-more-btn {
+        font-size: 1.8rem;
+    }
+    .projects-container .down-arrows-container .down-arrow-icon-1  {
+        top: -23px;
+    }
+    .projects-container .down-arrows-container .down-arrow-icon-2  {
+        top: -13px;
+    }
+    /* show more project */
+    .show-more-project {
+        margin-top: 40px;
+    }
+
+    /* contact codes */
+    .contact-container {
+        min-height: 1024px;
+        position: relative;
+    }
+    .contact-container .contact-tilte {
+        font-size: 3.6rem;
+        text-align: center;
+    }
+    .contact-container .contact-description {
+        text-align: center;
+        margin-top: 0px;
+        font-size: 1.6rem;
+    }
+    .contact-container .contact-texts {
+        top: 10px;
+        width: 100%;
+    }
+    .contact-container .contact-form-container {
+        width: 350px;
+        height: 550px;
+        left: 50%;
+        top: 50% !important;
+        transform: translate(-50%, -55%) !important;
+    }
+
+    .contact-form-container label {
+        font-size: 1.4rem;
+    }
+    .contact-container .contact-container-left-side {
+        width: 100%;
+        height: 100%;
+        left: 0px;
+        top: 0px;
+        position: relative;
+    }
+    .contact-container .contact-ways-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        width: 100%;
+        bottom: 140px;
+    }
+    .contact-container .email-container, .contact-container .phone-container, .contact-container .location-container {
+        flex-direction: column;
+        gap: 5px;
+    }
+    .email-container .email-text, .phone-container .phone-text, .location-container .location-text {
+        font-size: 1.4rem;
+    }
+    .contact-container .contact-ways-container img[class *= "-icon"] {
+        width: 25px;
+        height: 25px;
+    }
+    .contact-container .social-media-container {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 65px;
+        gap: 40px;
+    }
+    .contact-container .social-media-container a[class *="-icon"] {
+        width: 25px;
+        height: 25px;
+    }
+    .contact-container .contact-container-right-side  {
+        width: 100%;
+        left: 0px;
+        top: 0px;
+        position: absolute;
+    }
+    .contact-container .form-title {
+        font-size: 1.8rem;
+    }
+    .contact-container .form-inputs-container input {
+        height: 40px;
+    }
+    .contact-container .user-message-container {
+        font-size: 1.2rem;
+    }
+    .contact-container .submit-btn-container .submit{
+        font-size: 1.4rem;
+    }
+    .contact-container .author-section .author {
+        font-size: 1.2rem;
+    }
+}
+
+
+/* ipad Air */
+@media screen and (min-width : 820px) and (max-width : 1023px) {
+    /* menu codes */
+    .menu-container {
+        width: 600px;
+        top: 50px;   
+    }
+    .menu {
+        width: 550px;
+    }
+    .menu li svg rect {
+        width: 96%;
+        height: 90%;
+        x : 1;
+    }
+    .menu-link a {
+        font-size: 1.2rem;
+    }
+
+    /* header codes */
+    .hero-header-container {
+        min-height: 1024px;
+    }
+    .hero-header-container .laptop-img  {
+        display: none;
+    }
+    .hero-header-container .ipad-img  {
+        display: block;
+        width: 728px;
+        height: 1024px;
+    }
+    .hero-header-image {
+        width: 1280px;
+    }
+    .hero-header-texts {
+        top: 50%;
+        transform: translate(-50%, -40%);
+    }
+    .hero-header-texts .hello-text {
+        font-size: 8rem;
+    }
+    .hero-header-texts .my-name-text {
+        font-size: 3rem;
+    }
+
+
+    /* about codes */
+    .about-container {
+        padding: 0px 5rem;
+        min-height: 1024px;
+    }
+    .about-container .hero-header-image {
+        width: 728px !important;
+    }
+    .about-container .img-container {
+        width: 100%;
+        height: 1024px;
+    }
+    .about-container .about-texts {
+        width: 100%;
+        height: 100dvh;
+        left: 0px;
+        top: 0px;
+        position: absolute;
+    }
+    .about-container .who-text {
+        font-size: 4.2rem;
+        top: 80px;
+        text-align: center;
+    }
+    .about-container .indroducing-text {
+        font-size: 1.8rem;
+        top: 750px;
+        position: absolute;
+        width: 85%;
+        text-align: left;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .about-container-image {
+        width: 500px;
+        height: 524px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 150px;
+    }
+
+    /* skill codes */
+    .skills-container {
+        overflow-x: hidden;
+        min-height: 1024px;
+    }
+    .skill-title {
+        font-size: 4.2rem;
+        top: 100px;
+    }
+    .skills-status-container {
+        grid-template-columns: auto;
+        row-gap: 50px;
+    }
+    .skills-status-container div[class *="-icon-container"]{
+        width: 70px;
+        height: 70px;
+    }
+    .skills-status-container div[class *="-icon-container"] p{
+        font-size: 1.6rem;
+    }
+    .skills-status-container div[class *="-icon-container"] img{
+        width: 40px;
+        height: 40px;
+    }
+    .skills-status-container div[class *="-nav-container"]{
+        width: 390px;
+    }
+    .skills-status-container .percentage{
+        font-size: 2.2rem;
+    }
+
+    .hero-header-texts {
+        transform: translate(-50%, -75%);
+    }
+    /* project codes */
+    .portfolio-container {
+        padding: 1rem;
+        height: 800px;
+        row-gap: 50px;
+        grid-template-columns: auto auto;
+        justify-content: space-between;
+        margin-top: 150px;
+    }
+    .portfolio-container > div[class ^= "project-"] {
+        width: 350px;
+        height: 350px;
+    }
+    /* project-1 codes */
+    .project-1 .project-1-img {
+        width: 100px;
+        height: 100px;
+        top: -20px;
+    }
+    .project-1 .project-1-circle-1 {
+        top: 22px;
+        width: 110px;
+        height: 110px;
+    }
+    .project-1 .project-1-circle-2 {
+        top: 17px;
+        width: 120px;
+        height: 120px;
+    }
+    .project-1-buttons {
+        bottom: 10px;
+        position: relative;
+    }
+    .project-1 .project-1-quantity {
+        font-size: 1.8rem;
+    }
+    .project-1 .project-1-post-text, .project-1 .project-1-likes-text, .project-1 .project-1-follower-text {
+        font-size: 1.6rem;
+    }
+    /* project-2 codes */ 
+    .project-2 .project-2-menu {
+        left: 35px;
+    }
+    .project-2 .project-2-date {
+        font-size: 1.6rem;
+    }
+    .project-2 .project-2-sender {
+        font-size: 1.2rem;
+    }
+    .project-2 
+    /* project-5 codes */ 
+    .project-5 .project-5-display {
+        width: 80%;
+    }
+    /* project-5 codes */
+    .project-5 .project-5-display {
+        width: 80%;
+        height: 180px;
+    }
+    .project-5 .project-5-street {
+        right: 72px;
+        bottom: 44px;
+    }
+    /* project-7 codes */
+    .project-7 .project-7-text {
+        font-size: 1.8rem;
+    }
+    .project-7 .project-7-word-card {
+        height: 110px;
+        width: 250px;
+        left: -40px;
+        font-size: 13px;
+        top: -122px !important;
+    }
+    .project-7 .project-7-author-name {
+        font-size: 1.8rem;
+    }
+    /* project-8 codes */ 
+    .project-8 .project-8-btn-container {
+        bottom: 30px;
+    }
+    /* project-12 codes */ 
+    .project-12 .project-12-todo-container {
+        width: 250px;
+        height: 300px;
+    }
+    .project-12 .project-12-task-name p {
+        font-size: 1.3rem;
+    }
+    /* show more project */
+    .show-more-project {
+        width: 180px;
+    }
+    .show-more-project .show-more-btn {
+        font-size: 2rem;
+    }
+    .down-arrows-container {
+        top: 65px;
+    }
+    /* contact codes */
+    .contact-container .contact-form-container {
+        width: 400px;
+        height: 650px;
+    }
+    .contact-form-container label, .contact-container .submit-btn-container .submit {
+        font-size: 1.6rem;
+    }
+    .contact-container .user-message-container {
+        font-size: 1.4rem;
+    }
+    /* contact codes */
+    .contact-container {
+        min-height: 1024px;
+        position: relative;
+    }
+    .contact-container .contact-tilte {
+        font-size: 3.6rem;
+        text-align: center;
+    }
+    .contact-container .contact-description {
+        text-align: center;
+        margin-top: 0px;
+        font-size: 1.6rem;
+    }
+    .contact-container .contact-texts {
+        top: 10px;
+        width: 100%;
+    }
+    .contact-container .contact-form-container {
+        width: 360px;
+        height: 600px;
+        left: 50%;
+        top: 18% !important;
+        transform: translateX(-50%);
+    }
+
+    .contact-form-container label {
+        font-size: 1.4rem;
+    }
+    .contact-container .contact-container-left-side {
+        width: 100%;
+        height: 100%;
+        left: 0px;
+        top: 0px;
+        position: relative;
+    }
+    .contact-container .contact-ways-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        width: 100%;
+        bottom: 130px;
+    }
+    .contact-container .email-container, .contact-container .phone-container, .contact-container .location-container {
+        flex-direction: column;
+        gap: 5px;
+    }
+    .email-container .email-text, .phone-container .phone-text, .location-container .location-text {
+        font-size: 1.4rem;
+    }
+    .contact-container .contact-ways-container img[class *= "-icon"] {
+        width: 25px;
+        height: 25px;
+    }
+    .contact-container .social-media-container {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 65px;
+        gap: 40px;
+    }
+    .contact-container .social-media-container a[class *="-icon"] {
+        width: 25px;
+        height: 25px;
+    }
+    .contact-container .contact-container-right-side  {
+        width: 100%;
+        left: 0px;
+        top: 0px;
+        position: absolute;
+    }
+    .contact-container .form-title {
+        font-size: 1.8rem;
+    }
+    .contact-container .form-inputs-container input {
+        height: 40px;
+    }
+    .contact-container .user-message-container {
+        font-size: 1.2rem;
+    }
+    .contact-container .submit-btn-container .submit{
+        font-size: 1.4rem;
+    }
+    .contact-container .author-section .author {
+        font-size: 1.2rem;
+    }
+}
+
+/* ipad Pro */
+@media screen and (min-width : 1024px) and (max-width : 1279px) {
+    /* menu codes */
+    .menu-container {
+        width: 600px;
+        top: 50px;   
+    }
+    .menu {
+        width: 550px;
+    }
+    .menu li svg rect {
+        width: 97%;
+        x: 1;
+        height: 90%;
+    }
+    .menu-link a {
+        font-size: 1.2rem;
+    }
+    /* hero header codes */
+    .hero-header-container {
+        min-height: 1366px;
+    }
+    .hero-header-container .laptop-img {
+        display: none;
+    }
+    .hero-header-container .ipad-img {
+        display: block;
+        width: 956px;
+        min-height: 1366px;
+    }
+    .hero-header-texts .hello-text {
+        font-size: 10rem;
+    }
+    .hero-header-texts .my-name-text {
+        font-size: 3.6rem;
+    }
+    /* about codes */
+    .about-container {
+        min-height: 1366px;
+    }
+    .about-container .who-text {
+        top: 100px;
+        font-size: 5rem;
+    }
+    .about-container .indroducing-text {
+        font-size: 2rem;
+        top: 1100px;
+        width: 80%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .about-container-image {
+        width: 750px;
+        height: auto;
+        top: 200px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .about-container .img-container {
+        width: 100%;
+        height: 1024px;
+    }
+    .about-container .about-texts {
+        width: 100%;
+        height: 100dvh;
+        left: 0px;
+        top: 0px;
+        position: absolute;
+    }
+    .about-container .who-text {
+        font-size: 4.2rem;
+        top: 80px;
+        text-align: center;
+    }
+
+    /* skill codes */
+    .skills-container {
+        min-height: 1366px;
+    }
+    .skills-container .skill-title {
+        font-size: 5rem;
+        top: 200px;
+    }
+    .skills-status-container {
+        row-gap: 70px;
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .skills-status-container div[class *="-icon-container"]{
+        width: 80px;
+        height: 80px;
+    }
+    .skills-status-container div[class *="-icon-container"] p{
+        font-size: 1.8rem;
+    }
+    .skills-status-container div[class *="-icon-container"] img{
+        width: 50px;
+        height: 50px;
+    }
+    .skills-status-container div[class *="-nav-container"]{
+        width: 400px;
+    }
+    .skills-status-container .percentage{
+        font-size: 2.4rem;
+    }
+    /* project codes */
+    .portfolio-container {
+        padding: 1rem;
+        height: 900px;
+        row-gap: 50px;
+        grid-template-columns: auto auto;
+        justify-content: space-around;
+        margin-top: 150px;
+    }
+    .portfolio-container > div[class ^= "project-"] {
+        width: 400px;
+        height: 400px;
+    }
+    /* project-1 codes */
+    .project-1 .project-1-img {
+        width: 100px;
+        height: 100px;
+    }
+    .project-1 .project-1-circle-1 {
+        top: 58px;
+        width: 110px;
+        height: 110px;
+    }
+    .project-1 .project-1-circle-2 {
+        top: 53px;
+        width: 120px;
+        height: 120px;
+    }
+    /* project-2 codes */
+    .project-2 .project-2-sender {
+        font-size: 1.5rem;
+    }
+    .project-2 .project-2-menu {
+        left: 55px;
+    }
+    /* project-7 codes */
+    .project-7 .project-7-text {
+        font-size: 22px;
+    }
+    .project-7 .project-7-word-card {
+        left: -40px;
+    }
+    /* project-8 codes */
+    .project-8 .project-8-btn-container {
+        bottom: 40px;
+    }
+    /* show more project */
+    .projects-container .show-more-project {
+        width: 200px;
+        height: 60px;
+        margin-top: 50px;
+    }
+    .show-more-project .show-more-btn {
+        font-size: 2rem;
+    }
+    .projects-container .down-arrows-container .down-arrow-icon-1{
+        top: -13px;
+    }
+    .projects-container .down-arrows-container .down-arrow-icon-2{
+        top: -2px;
+    }
+    
+    /* contact codes */ 
+    .contact-container {
+        min-height: 1366px;
+    }
+    .contact-container .contact-texts {
+        top: 100px;
+        width: 100%;
+    }
+    .contact-container .contact-texts p {
+        text-align: center;
+    }
+    .contact-container .contact-container-left-side {
+        width: 100%;
+        height: 100%;
+        left: 0px;
+        top: 0px;
+        position: absolute;
+    }
+    .contact-container .contact-container-right-side {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .contact-container .contact-ways-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: space-around;
+        width: 100%;
+        bottom: 140px;
+    }
+    .contact-container .contact-tilte {
+        font-size: 5rem;
+    }
+    .contact-container .contact-description {
+        margin-top: 20px;
+        font-size: 2rem;
+    } 
+    .contact-container .contact-form-container {
+        width: 400px;
+        height: 650px;
+        left: 50%;
+        top: 50% !important;
+        transform: translate(-50%, -50%);
+    }
+    .contact-container .form-title {
+        font-size: 2.4rem;
+    }
+    .contact-form-container label, .contact-container .submit-btn-container .submit {
+        font-size: 1.8rem;
+    }
+    .contact-container .form-inputs-container input {
+        height: 45px;
+    }
+    .contact-container .user-message-container {
+        font-size: 1.4rem;
+    }
+    .contact-container .contact-ways-container {
+        bottom: 170px;
+    }
+    .email-container .email-text, .phone-container .phone-text, .location-container .location-text {
+        font-size: 1.8rem;
+    }
+    .contact-container .contact-ways-container img[class *= "-icon"] {
+        width: 35px;
+        height: 35px;
+    }
+    .contact-container .contact-ways-container span[class *= "-text"] {
+        font-size: 16px;
+    }
+    .contact-container .social-media-container {
+        bottom: 80px;
+        gap: 45px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .contact-container .social-media-container a[class *="-icon"] {
+        width: 30px;
+        height: 30px;
+    }
+    .contact-container .email-container, .contact-container .phone-container, .contact-container .location-container {
+        gap: 10px;
+    }
+}
+
+
+/* iphone 16 */
+@media screen and (min-width : 300px) and (max-width : 767px) {
+    /* menu codes */
+    .menu-container {
+        display: none;
+    }
+    .mobile-menu-icon-container {
+        visibility: visible;
+    }
+    /* header codes */
+    .hero-header-container .laptop-img  {
+        display: none;
+    }
+    .hero-header-container .ipad-img  {
+        display: none;
+    }
+    .hero-header-container .phone-img {
+        display: block;
+        height: 660px;
+        max-width: 110%;
+        transform: translate(-50%, -5%);
+        margin-top:35px;
+    }
+    .hero-header-texts {
+        transform: translate(-50%, -120%);
+    }
+    .hero-header-texts .hello-text {
+        font-size: 4rem;
+    }
+    .hero-header-texts .my-name-text {
+        font-size: 1.8rem;
+    }
+
+
+    /* about codes */
+    .about-container {
+        min-height: 852px;
+    }
+    .about-container .about-container-image {
+        width: 387px;
+        height: auto;
+        top: 180px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .about-container .img-container {
+        width: 100%;
+        height: 100dvh;
+    }
+    .about-container .about-texts {
+        width: 100%;
+        height: 100dvh;
+        left: 0px;
+        top: 0px;
+        position: absolute;
+    }
+    .about-container .who-text {
+        font-size: 3rem;
+        top: 100px;
+        text-align: center;
+    }
+    .about-container .indroducing-text {
+        font-size: 1.4rem;
+        top: 652px;
+        position: absolute;
+        width: 85%;
+        text-align: left;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 109px;
+        overflow: hidden;
+    }
+
+    /* skill codes */
+    .skills-container {
+        overflow-x: hidden;
+        padding: 1rem !important;
+    }
+    .skill-title {
+        font-size: 3rem;
+        top: 100px;
+    }
+    .skills-status-container {
+        grid-template-columns: auto;
+        row-gap: 50px;
+    }
+    .skills-status-container div[class *="-icon-container"]{
+        width: 50px;
+        height: 50px;
+        border-radius: 15px;
+    }
+    .skills-status-container div[class *="-skill-container"] {
+        gap: 1rem;
+    }
+    .skills-status-container div[class *="-icon-container"] p{
+        font-size: 1.2rem;
+    }
+    .skills-status-container div[class *="-icon-container"] img{
+        width: 30px;
+        height: 30px;
+    }
+    .skills-status-container div[class *="-nav-container"]{
+        width: 240px;
+        height: 15px;
+    }
+    .skills-status-container .percentage{
+        font-size: 1.4rem;
+    }
+
+    /* project codes */
+    .projects-container {
+        min-height: 852px;
+        padding: 2rem 0px;
+    }
+    .projects-texts  {
+        height: 65px;
+        top: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .project-title {
+        font-size: 3rem;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .portfolio-container {
+        height: 800px;
+        row-gap: 60px;
+        grid-template-columns: auto;
+        justify-content: center;
+        margin-top: 150px;
+        padding-top: 0px;
+        padding-bottom: 30px;
+    }
+    .portfolio-container > div[class ^= "project-"] {
+        width: 340px;
+        height: 340px;
+    }
+    /* project-1 codes */
+    .project-1 .project-1-img {
+        width: 100px;
+        height: 100px;
+        top: -20px;
+    }
+    .project-1 .project-1-circle-1 {
+        top: 18px;
+        width: 110px;
+        height: 110px;
+    }
+    .project-1 .project-1-circle-2 {
+        top: 13px;
+        width: 120px;
+        height: 120px;
+    }
+    .project-1-buttons {
+        bottom: 10px;
+        position: relative;
+    }
+    .project-1 .project-1-quantity {
+        font-size: 1.8rem;
+    }
+    .project-1 .project-1-post-text, .project-1 .project-1-likes-text, .project-1 .project-1-follower-text {
+        font-size: 1.6rem;
+    }
+    /* project-2 codes */
+    .project-2 .project-2-first-section, .project-2 .project-2-second-section, .project-2 .project-2-third-section {
+        font-size: 1.4rem;
+    }
+    .project-2 .project-2-search-box {
+        width: 75%;
+    }
+    .project-2 .project-2-menu {
+        left: 50px;
+    }
+    .project-2 .project-2-title-text {
+        font-size: 18px;
+    }
+    .project-2 .magnify-icon {
+        font-size: 33px;
+    }
+    /* project-3 codes */
+    .project-3 .project-3-profile {
+        width: 120px;
+        height: 120px;
+        bottom: -35px;
+    }
+    .project-3 .project-3-action-buttons {
+        margin-top: 45%;
+    }
+    .project-3 .project-3-action-buttons div[calss *= "-btn"] {
+        width: 45px;
+        height: 45px;
+    }
+
+    /* project-5 */ 
+    .project-5 .project-5-display {
+        width: 300px;
+        height: 180px;
+    }
+    .project-5 .project-5-street  {
+        right: 82px;
+        bottom: 44px;
+    }
+    /* project-7 codes */
+    .project-7 .project-7-text {
+        font-size: 20px;
+    }
+    .project-7 .project-7-author-name {
+        font-size: 18px;
+    }
+    .project-7 .project-7-word-card{
+        width: 250px;
+        font-size: 14px;
+        left: -30px;
+    }
+    /* project-7 codes */
+    .project-7 .project-7-text {
+        font-size: 1.8rem;
+    }
+    .project-7 .project-7-word-card {
+        left: -40px;
+        height: 120px;
+        top: -134px !important;
+    }
+    /* project-8 codes */
+    .project-8 .project-8-btn-container {
+        bottom: 30px;
+    }
+    .project-8 .project-8-collect , .project-8 .project-8-nothing {
+        font-size: 28px;
+    }
+    .project-8 .project-8-moments  {
+        font-size: 45px;
+    }
+    .project-8 .project-8-left-bracket {
+        left: 45px;
+    }
+    .project-8 .project-8-right-bracket {
+        right: 45px;
+    }
+    /* project-9 */
+    .project-9 .project-9-card-top {
+        height: 140px;
+    }
+    /* project-12 */
+    .project-12 .project-12-todo-container {
+        height: 300px;
+        width: 270px;
+    }
+    .project-12 .project-12-task-name p {
+        font-size: 14px;
+    }
+    /* show-more-btn */
+    .projects-container .show-more-project {
+        width: 150px;
+        height: 50px;
+        bottom: 15px;
+    }
+    .projects-container .show-more-btn {
+        font-size: 1.8rem;
+    }
+    .projects-container .down-arrows-container .down-arrow-icon-1  {
+        top: -23px;
+    }
+    .projects-container .down-arrows-container .down-arrow-icon-2  {
+        top: -13px;
+    }
+
+    /* contact codes */
+    .contact-container {
+        height: 100dvh;
+        position: relative;
+        overflow: hidden;
+    }
+    .contact-container .contact-tilte {
+        font-size: 3rem;
+        text-align: center;
+    }
+    .contact-container .contact-description {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 1.4rem;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .contact-container .contact-texts {
+        top: 10px;
+        width: 100%;
+    }
+    .contact-container .contact-form-container {
+        width: 300px;
+        height: 480px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -40%);
+    }
+
+    .contact-form-container label {
+        font-size: 1.2rem;
+    }
+    .contact-container .contact-container-left-side {
+        width: 100%;
+        height: 100%;
+        left: 0px;
+        top: 0px;
+        position: relative;
+    }
+    .contact-container .contact-ways-container {
+        display: none;
+    }
+    .contact-container .social-media-container {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 35px;
+        gap: 20px;
+    }
+    .contact-container .social-media-container a[class *="-icon"] {
+        width: 20px;
+        height: 20px;
+    }
+    .contact-container .contact-container-right-side  {
+        width: 100%;
+        left: 0px;
+        top: 0px;
+        position: absolute;
+    }
+    .contact-container .form-title {
+        font-size: 1.6rem;
+        margin-top: 10px;
+    }
+    .contact-container .form-inputs-container input {
+        height: 35px;
+        font-size: 1.4rem;
+    }
+    .contact-container .user-message-container {
+        font-size: 1.2rem;
+    }
+    .contact-container .submit-btn-container .submit{
+        font-size: 1rem;
+    }
+    .contact-container .author-section .author {
+        font-size: 1rem;
+    }
+}

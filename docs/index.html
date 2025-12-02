@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en" class="text-[62.5%]">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../src/output.css">
+    <link rel="stylesheet" href="../font/font.css">
+    <link rel="stylesheet" href="./responsive-style.css">
+    <script src="./app.js" defer></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+<!-- projects links -->
+    <link rel="stylesheet" href="./projects-codes/projects-style.css">
+    <script src="./projects-codes/projects-scripts/project-6.js" defer></script>
+    <script src="./projects-codes/projects-scripts/project-7.js" defer></script>
+    <script src="./projects-codes/projects-scripts/project-13.js" defer></script>
+    <script src="./projects-codes/projects-scripts/project-19.js" defer></script>
+    <script src="./projects-codes/projects-scripts/project-20.js" defer></script>
+    <script src="./projects-codes/projects-scripts/project-12.js" defer></script>
+    <script src="./projects-codes/projects-scripts/project-23.js" defer></script>
+    <script src="./projects-codes/projects-scripts/project-26.js" defer></script>
+    <script src="./projects-codes/projects-scripts/project-10.js" defer></script>
+    <script src="./projects-codes/projects-scripts/project-24.js" defer></script>
+    <script src="./projects-codes/projects-scripts/project-27.js" defer></script>
+    <title>Mohammad Amini</title>
+</head>
+<body class="bg-black flex justify-center items-center">
+    <div class="container text-white font-inter-m max-w-[1728px] h-auto p-[2rem] overflow-hidden">
+        <!-- menu codes -->
+        <div class="menu-container w-[800px] h-[70px] fixed top-[30px] left-[50%] translate-x-[-50%] z-[60]">
+            <ul class="menu w-[700px] h-[50px] flex absolute center">
+                <li class="menu-link home hero">
+                    <svg class="size-full absolute">
+                        <rect class="rect-animation"></rect>
+                    </svg>
+                    <a href="" class="text-[1.8rem]">Home</a>
+                </li>
+                <li class="menu-link about">
+                    <svg class="size-full absolute">
+                        <rect></rect>
+                    </svg>
+                    <a href="" class="text-[1.8rem]">About</a>
+                </li>
+                <li class="menu-link skills">
+                    <svg class="size-full absolute">
+                        <rect></rect>
+                    </svg>
+                    <a href="" class="text-[1.8rem]">Skills</a>
+                </li>
+                <li class="menu-link projects">
+                    <svg class="size-full absolute">
+                        <rect></rect>
+                    </svg>
+                    <a href="" class="text-[1.8rem]">Projects</a>
+                </li>
+                <li class="menu-link contact">
+                    <svg class="size-full absolute">
+                        <rect></rect>
+                    </svg>
+                    <a href="" class="text-[1.8rem]">Contact</a></li>
+            </ul>
+        </div>
+        <div class="mobile-menu-icon-container w-[30px] h-[20px] flex flex-col items-end absolute right-[30px] top-[30px] z-50 invisible">
+            <div class="line-1 w-[30px] h-[3px] rounded bg-white absolute top-0"></div>
+            <div class="line-2 w-[30px] h-[3px] rounded bg-white absolute y-center"></div>
+            <div class="line-3 w-[20px] h-[3px] rounded bg-white absolute bottom-0"></div>
+        </div>
+        <div class="mobile-menu-container w-full h-dvh  fixed bg-black z-20 left-0 top-0 p-[1rem] hidden">
+            <div class="mobile-menu size-full pt-[100px] pl-[30px] bg-black absolute top-0 left-0 z-30 ">
+                <ul class="mobile-menu w-full h-[243px] text-[1.6rem] flex flex-col justify-between">
+                    <li class="mobile-menu-links"><a href="#">Home</a></li>
+                    <li class="mobile-menu-links"><a href="#">About</a></li>
+                    <li class="mobile-menu-links"><a href="#">Skills</a></li>
+                    <li class="mobile-menu-links"><a href="#">Projects</a></li>
+                    <li class="mobile-menu-links"><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- hero header codes -->
+        <div id="hero" class="hero-header-container w-full h-dvh p-[2rem] relative overflow-hidden">
+            <img class="hero-header-image laptop-img w-[1563px] h-auto x-center top-[1117px] absolute" src="../images & videos/laptop.png" alt="">
+            <img class="hero-header-image ipad-img x-center w-[78px] h-dvh header-img-animation top-[1117px] absolute hidden" src="../images & videos/ipad.png" alt="">
+            <img class="hero-header-image phone-img x-center absolute header-img-animation top-[1000px] hidden" src="../images & videos/iphone.png" alt="">
+            <div class="hero-header-texts center absolute">
+                <p class="hello-text text-[12.8rem] text-center w-0 overflow-hidden">Hello,</p>
+                <p class="my-name-text text-[4.8rem] text-center font-inter-r truncate w-0">&lt;p&gt; I'm Mohammad Amini &lt;/p&gt;</p>
+            </div>
+        </div>
+        <!-- about codes -->
+        <div id="about" class="about-container w-full h-dvh relative flex overflow-hidden p-[2rem]">
+            <div class="img-container w-[40%] h-auto absolute right-0">
+                <img class="about-container-image w-[755px] h-[700px] absolute top-[300px] right-[-50px]" src="../images & videos/my pictue.png" alt="Mohammad Amini">
+            </div>
+            <div class="about-texts w-[60%] h-full relative">
+                <p class="who-text text-[6.4rem] w-full absolute top-[200px] left-[0px]">Who Am I ?</p>
+                <p class="indroducing-text w-full text-[2.4rem] absolute left-[0px] top-[480px]">I’m Mohammad Amini, a self-taught front-end developer passionate about creating elegant, user-focused web experiences. I enjoy turning complex problems into simple, beautiful interfaces.<br>My main focus is crafting responsive, accessible websites that not only look great but also feel intuitive to use. I’m constantly exploring new technologies and design trends to refine both my technical skills and creative process.</p>
+            </div>
+        </div>
+        <!-- skills codes -->
+        <div id="skills" class="skills-container w-full h-dvh relative p-[2rem]">
+            <div class="skill-texts">
+                <p class="skill-title text-center text-[6.4rem] top-[200px] absolute x-center">Skills</p>
+            </div>
+            <div class="skills-status-container w-full h-auto absolute center top-[60%]">
+                <!-- html skill codes -->
+                <div class="html-skill-container flex items-center gap-[2rem]">
+                    <div class="html-icon-container size-[100px] border-[3px] border-[#E34F26] rounded-[20px] flex justify-center items-center">
+                        <p class="html-text text-[2.4rem] text-[#E34F26] font-inter-sb">HTML</p>
+                    </div>
+                    <div class="html-nav-container w-[500px] h-[20px] rounded-[20px] border-2">
+                        <div class="html-nav-fill w-0 h-full bg-[#E34F26] rounded-[20px]"></div>
+                    </div>
+                    <div class="percentage-text">
+                        <p class="percentage text-[3.2rem]">80%</p>
+                    </div>
+                </div>
+                <!-- css skill codes -->
+                <div class="css-skill-container flex items-center gap-[2rem]">
+                    <div class="css-icon-container size-[100px] border-[3px] border-[#1572B6] rounded-[20px] flex justify-center items-center">
+                        <p class="css-text text-[2.4rem] text-[#1572B6] font-inter-sb">CSS</p>
+                    </div>
+                    <div class="css-nav-container w-[500px] h-[20px] rounded-[20px] border-2">
+                        <div class="css-nav-fill w-0 h-full bg-[#1572B6] rounded-[20px]"></div>
+                    </div>
+                    <div class="percentage-text">
+                        <p class="percentage text-[3.2rem]">70%</p>
+                    </div>
+                </div>
+                <!-- js skill codes -->
+                <div class="js-skill-container flex items-center gap-[2rem]">
+                    <div class="js-icon-container size-[100px] border-[3px] border-[#F7DF1E] rounded-[20px] flex justify-center items-center">
+                        <p class="js-text text-[2.4rem] text-[#F7DF1E] font-inter-sb">JS</p>
+                    </div>
+                    <div class="js-nav-container w-[500px] h-[20px] rounded-[20px] border-2">
+                        <div class="js-nav-fill w-0 h-full bg-[#F7DF1E] rounded-[20px]"></div>
+                    </div>
+                    <div class="percentage-text">
+                        <p class="percentage text-[3.2rem]">40%</p>
+                    </div>
+                </div>
+                <!-- github skill codes -->
+                <div class="github-skill-container flex items-center gap-[2rem]">
+                    <div class="github-icon-container size-[100px] border-[3px] border-[#666463] rounded-[20px] flex justify-center items-center">
+                        <img  src="../images & videos/github-svgrepo-com.svg" alt="" class="github-icon size-[56px]">
+                    </div>
+                    <div class="github-nav-container w-[500px] h-[20px] rounded-[20px] border-2">
+                        <div class="github-nav-fill w-0 h-full bg-[#666463] rounded-[20px]"></div>
+                    </div>
+                    <div class="percentage-text">
+                        <p class="percentage text-[3.2rem]">40%</p>
+                    </div>
+                </div>
+                <!-- tailwind skill codes -->
+                <div class="tailwind-skill-container flex items-center gap-[2rem]">
+                    <div class="tailwind-icon-container size-[100px] border-[3px] border-[#38BDF8] rounded-[20px] flex justify-center items-center">
+                        <img src="../images & videos/tailwind-svgrepo-com (1).svg" alt="" class="tailwind-icon size-[70px]">
+                    </div>
+                    <div class="tailwind-nav-container w-[500px] h-[20px] rounded-[20px] border-2">
+                        <div class="tailwind-nav-fill w-0 h-full bg-[#38BDF8] rounded-[20px]"></div>
+                    </div>
+                    <div class="percentage-text">
+                        <p class="percentage text-[3.2rem]">50%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- projects codes -->
+        <div class="projects-container w-full h-auto relative p-[2rem] flex flex-col">
+            <div class="projects-texts h-[200px]">
+                <p class="project-title text-center top-[100px] text-[6.4rem] absolute x-center">Projects</p>
+            </div>
+            <div id="projects" class="portfolio-container p-[2rem] py-[100px] w-full overflow-hidden top-[200px]">
+                <div class="project-1">
+                    <div class="project-1-container size-full rounded-[20px] flex justify-center items-center">
+                        <div class="project-1-card size-[90%] flex bg-white rounded-[20px]">
+                            <div class="project-1-left-side w-[300px] h-full flex flex-col items-center">
+                                <div class="project-1-profile w-full h-[70%] flex flex-col">
+                                    <div class="project-1-picture w-full h-full flex justify-center items-center relative">
+                                        <img class="project-1-img size-[150px] relative rounded-[50%] z-10" src="https://100dayscss.com/codepen/jessica-potter.jpg" alt="user-image">
+                                        <div class="project-1-circle-1 size-[160px] rounded-[50%] border-2 border-[#786450] border-l-transparent absolute"></div>
+                                        <div class="project-1-circle-2 size-[170px] rounded-[50%] border-2 border-[#786450] border-r-transparent absolute"></div>
+                                        <p class="project-1-name absolute text-[15px] font-semibold text-[#786450] bottom-[30px]">Jessica Potter</p>
+                                        <p class="project-1-occupation absolute text-[14px] text-[#786450a6] bottom-[10px]">Visual Artist</p>
+                                    </div>
+                                </div> 
+                                <div class="project-1-buttons w-full h-[30%] flex flex-col items-center gap-2 mt-[33px]">
+                                    <button class="project-1-follow-btn hover:bg-[#786450] text-[#786450] w-[70%] h-[40px] flex justify-center items-center border-2 rounded-2xl border-[#786450] text-[1.3rem] font-semibold color-[#786450]">Follow</button>
+                                    <button class="project-1-message-btn hover:bg-[#786450] text-[#786450] w-[70%] h-[40px] flex justify-center items-center border-2 rounded-2xl border-[#786450] text-[1.3rem] font-semibold color-[#786450]">Message</button>
+                                </div>
+                            </div>
+                            <div class="project-1-right-side w-[200px] h-full flex flex-col justify-between">
+                                <div class="project-1-post-quantity hover:bg-[#cfc0b6] w-full h-[33%] bg-[#F5E8DF] flex flex-col justify-center items-center rounded-tr-[20px]">
+                                    <p class="project-1-quantity text-[20px] font-semibold text-[#786450]">523</p>
+                                    <p class="project-1-post-text text-[18px] text-[#786450c1]">Posts</p>
+                                </div>
+                                <div class="project-1-like-quantity hover:bg-[#cfc0b6] w-full h-[33%] bg-[#F5E8DF] flex flex-col justify-center items-center">
+                                    <p class="project-1-quantity text-[20px] font-semibold text-[#786450]">1387</p>
+                                    <p class="project-1-likes-text text-[18px] text-[#786450c1]">Likes</p>
+                                </div>
+                                <div class="project-1-follower-quantity hover:bg-[#cfc0b6] w-full h-[33%] bg-[#F5E8DF] flex flex-col justify-center items-center rounded-br-[20px]">
+                                    <p class="project-1-quantity text-[20px] font-semibold text-[#786450]">146</p>
+                                    <p class="project-1-follower-text text-[18px] text-[#786450c1]">Follower</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-2">
+                    <div class="project-2-container size-full rounded-md flex justify-center items-center bg-[#264057] relative overflow-hidden">
+                        <div class="project-2-card size-[90%] flex flex-col absolute z-10 ">
+                            <div class="project-2-header w-full h-[20%] rounded-t-[20px] flex justify-around items-center bg-[#5F98CD] text-white  relative overflow-hidden px-5">
+                                <div class="project-2-icon w-[29px] h-[15px] cursor-pointer absolute left-8">
+                                    <div class="project-2-circle absolute w-[7px] h-[7px] rounded-[50%] top-[-2px] right-0 bg-[#B2DaFF]"></div>
+                                    <div class="project-2-line-1 absolute w-[20px] h-[3.5px] rounded-md bg-[#B2DAFF] top-0 left-0"></div>
+                                    <div class="project-2-line-2 absolute w-full h-[3.5px] rounded-md bg-[#B2DAFF] bottom-0"></div>
+                                </div>
+                                <div class="project-2-title">
+                                    <p class="project-2-title-text font-medium text-[20px]">
+                                        Notifications
+                                    </p>
+                                </div>
+                                <div class="project-2-search-box right-[-20px] absolute w-[80%] h-[40px] rounded-[17px] overflow-hidden opacity-0">
+                                    <input type="text" class="project-2-input w-full h-full text-[#666] outline-none border-none text-[16px] px-5 flex justify-center items-center" placeholder="Search ...">
+                                </div>
+                                <div class="project-2-search-icon absolute right-8">
+                                    <i class="material-symbols-outlined magnify-icon text-[#B2DAFF] hover:text-white cursor-pointer">search</i>
+                                </div>
+                            </div>
+                            <div class="project-2-card-body w-full h-[80%] rounded-b-[20px] bg-white flex gap-4">
+                                <div class="project-2-left-side w-[30px] h-full border-r-[3px] border-r-[#EBEBEB] relative flex flex-col items-end">
+                                    <div class="project-2-cicle-side cursor-pointer absolute top-[15%] w-[11px] h-[11px] rounded-[50%] border-2 border-[#5F98CD] translate-x-[7px] bg-white"></div>
+                                    <div class="project-2-cicle-side cursor-pointer absolute top-[40%] w-[11px] h-[11px] rounded-[50%] border-2 border-[#5F98CD] translate-x-[7px] bg-white"></div>
+                                    <div class="project-2-cicle-side cursor-pointer w-[11px] top-[65%] h-[11px] rounded-[50%] border-2 border-[#5F98CD] translate-x-[7px] bg-white"></div>
+                                </div>
+                                <div class="project-2-right-side w-full h-full relative text-[16px] flex flex-col text-[#666666]">
+                                    <div class="project-2-first-section absolute text-[18px] top-[13%] hover:text-[#6098cd] cursor-pointer pl-3">
+                                        <p class="project-2-date">9:24 AM</p>
+                                        <div class="project-2-message pr-5">
+                                            <p class="project-2-sender leading-5"> <span class="font-semibold">John Walker</span> posted a photo on your wall</p>
+                                        </div>
+                                    </div>
+                                    <div class="project-2-second-section absolute text-[18px] top-[42%] hover:text-[#6098cd] cursor-pointer pl-3">
+                                        <p class="project-2-date">8:19 AM</p>
+                                        <div class="project-2-message pr-8">
+                                            <p class="project-2-sender leading-5"> <span class="font-semibold">Alice Parker</span> commented your last post</p>
+                                        </div>
+                                    </div>
+                                    <div class="project-2-third-section absolute text-[18px] top-[70%] hover:text-[#6098cd] cursor-pointer pl-3">
+                                        <p class="project-2-date">Yesterday</p>
+                                        <div class="project-2-message">
+                                            <p class="project-2-sender leading-5"> <span class="font-semibold">Luke Wayne</span> added you as friend</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-2-menu w-[170px] h-[270px] bg-[#43627D] rounded-md absolute z-0">
+                            <ul class="project-2-list pt-3 pb-3 flex flex-col justify-around items-start">
+                                <li class="project-2-item">
+                                    <i class="fa-solid fa-gauge"></i>
+                                    <p class="project-2-dashboard">Dashboard</p>
+                                </li>
+                                <li class="project-2-item">
+                                    <i class="fa-solid fa-user"></i>
+                                    <p class="project-2-profile">Profile</p>
+                                </li>
+                                <li class="project-2-item">
+                                    <i class=fa-solid fa-bell"></i>
+                                    <p class="project-2-notifications">Notifications</p>
+                                </li>
+                                <li class="project-2-item">
+                                    <i class="fa-solid fa-message"></i>
+                                    <p class="project-2-messages">Messages</p>
+                                </li>
+                                <li class="project-2-item">
+                                    <i class="fa-solid fa-gear"></i>
+                                    <p class="project-2-setting">Setting</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-3">
+                    <div class="project-3-container size-full rounded-[20px] p-1 relative overflow-hidden flex justify-center items-center">
+                        <div class="project-3-images-container size-[90%]">
+                            <div class="project-3-overlay opacity-0 absolute flex justify-center items-center">
+                                <button class="project-3-plus-container w-[50px] h-[50px] bg-[#EC6565] rounded-[50%]">
+                                    <a class="project-3-plus relative"></a>
+                                </button>
+                            </div>
+                            <div class="project-3-first-img rounded-tl-[20px] bg-[length:100%_100%] bg-[url('https://100dayscss.com/codepen/13-1.jpg')] relative">
+                            </div>
+                            <div class="project-3-second-img rounded-tr-[20px] bg-[length:100%_100%] bg-[url('https://100dayscss.com/codepen/13-2.jpg')] relative">
+                            </div>
+                            <div class="project-3-third-img rounded-bl-[20px] bg-[length:100%_100%] bg-[url('https://100dayscss.com/codepen/13-3.jpg')] relative">
+                            </div>
+                            <div class="project-3-fourth-img rounded-br-[20px] bg-[length:100%_100%] bg-[url('https://100dayscss.com/codepen/13-4.jpg')] relative">
+                            </div>
+                        </div>
+                        <div class="project-3-detail-card">
+                            <div class="project-3-top-section w-full h-[55%] invisible bg-[url('https://100dayscss.com/codepen/13-1-header.jpg')] bg-[length:100%_100%] absolute left-0 rounded-tl-[14px] rounded-tr-[14px] z-20">
+                                <div class="project-3-close w-[50px] h-[50px] bg-[#EC6565] rounded-[50%] absolute flex justify-center items-center cursor-pointer hover:bg-white"></div>
+                                <div class="project-3-profile size-[150px] rounded-[50%] border-[2px] border-white absolute left-[50%] translate-x-[-50%] invisible bg-full bg-no-repeat bg-[length:100%_100%] bg-center"></div>
+                            </div>
+                            <div class="project-3-bottom-section w-full h-[65%] invisible bg-[#EC6565] absolute bottom-[65%] left-0 rounded-bl-[14px] rounded-br-[14px] z-10">
+                                <div class="project-3-action-buttons mt-[45%] w-full h-[45px] flex justify-center items-center gap-[45px] ">
+                                    <div class="project-3-phone-btn size-[50px] rounded-[50%] border-white text-white border flex justify-center items-center hover:bg-white hover:text-[#EC6565] cursor-pointer">
+                                        <i class="project-3-phone-icon text-[18px] material-symbols-outlined">call</i>
+                                    </div>
+                                    <div class="project-3-message-btn size-[50px] rounded-[50%] border-white border flex justify-center items-center text-white hover:bg-white hover:text-[#EC6565] cursor-pointer">
+                                        <i class="project-3-message-icon text-[18px] material-symbols-outlined">chat</i>
+                                    </div>
+                                    <div class="project-3-like-btn size-[50px] rounded-[50%] border-white border flex justify-center items-center text-white hover:bg-white hover:text-[#EC6565] cursor-pointer">
+                                        <i class="project-3-like-icon text-[18px] material-symbols-outlined">favorite</i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-4">
+                    <div class="project-4-sliders-container size-full bg-[#9b59b6] relative">
+                        <div class="project-4-checkbox-container w-full h-full flex items-center justify-center gap-3 absolute z-10">
+                            <div class="project-4-checkbox-1 cursor-pointer size-[50px] rounded-full border-2"></div>
+                            <div class="project-4-checkbox-2 cursor-pointer size-[50px] rounded-full border-2"></div>
+                            <div class="project-4-checkbox-3 cursor-pointer size-[50px] rounded-full border-2"></div>
+                        </div>
+                        <div class="project-4-pointer size-[40px] bg-white rounded-full absolute left-0 top-[50%] translate-y-[-50%]"></div>
+                        <div class="project-4-slider-2 size-full bg-[#3498db] absolute rounded-md left-full"></div>
+                        <div class="project-4-slider-3 size-full bg-[#1abc9c] absolute rounded-md left-full"></div>
+                    </div>
+                </div>
+                <div class="project-5">
+                    <div class="project-5-container size-full bg-[#4B4841] rounded-md flex justify-center items-center">
+                        <div class="project-5-display w-[350px] h-[200px] rounded-md">
+                            <div class="project-5-inner-display w-full h-full bg-[#FFCE4E] relative rounded-md">
+                                <div class="project-5-frontend w-full h-full flex flex-col items-center justify-center relative">
+                                    <div class="project-5-bicycle absolute">
+                                        <img src="https://100dayscss.com/codepen/bycicle.svg" alt="bicycle">
+                                    </div>
+                                    <div class="project-5-street w-[131px] h-[10px] flex justify-end gap-1 absolute bottom-[55px] right-[95px] overflow-hidden">
+                                        <div class="project-5-street-line-1 w-[17px] h-[3px] bg-[#4B4841] mt-1 rounded-md absolute"></div>
+                                        <div class="project-5-street-line-2 w-[3px] h-[3px] bg-[#4B4841] mt-1 rounded-md absolute"></div>
+                                        <div class="project-5-street-line-5 w-[15px] h-[3px] bg-[#4B4841] mt-1 rounded-md absolute"></div>
+                                        <div class="project-5-street-line-3 w-[10px] h-[3px] bg-[#4B4841] mt-1 rounded-md absolute"></div>
+                                        <div class="project-5-street-line-6 w-[2px] h-[3px] bg-[#4B4841] mt-1 rounded-[50%] absolute"></div>
+                                        <div class="project-5-street-line-4 w-[5px] h-[3px] bg-[#4B4841] mt-1 rounded-md absolute"></div>
+                                    </div>
+                                </div>
+                                <div class="project-5-backend w-full h-full justify-center items-center absolute flex top-0">
+                                    <div class="project-5-helicopter relative z-10 ">
+                                        <img src="https://100dayscss.com/codepen/helicopter.svg" alt="">
+                                    </div>
+                                    <div class="project-5-sky w-[170px] h-[150px] absolute left-[50%] top-[50%] overflow-hidden">
+                                        <div class="project-5-cloud-1 w-[25px] h-[3px] bg-[#4B4841] mt-1 rounded-md absolute top-2 right-[-30px]"></div>
+                                        <div class="project-5-cloud-2 w-[19px] h-[3px] bg-[#4B4841] mt-1 rounded-md absolute top-5 right-[-30px]"></div>
+                                        <div class="project-5-cloud-5 w-[14px] h-[3px] bg-[#4B4841] mt-1 rounded-md absolute top-7 right-[-30px]"></div>
+                                        <div class="project-5-cloud-3 w-[13px] h-[3px] bg-[#4B4841] mt-1 rounded-md absolute top-9 right-[-30px]"></div>
+                                        <div class="project-5-cloud-6 w-[20px] h-[3px] bg-[#4B4841] mt-1 absolute rounded-md top-12 right-[-30px]"></div>
+                                        <div class="project-5-cloud-7 w-[12px] h-[3px] bg-[#4B4841] mt-1 rounded-md absolute top-16 right-[-30px]"></div>
+                                        <div class="project-5-cloud-8 w-[14px] h-[3px] bg-[#4B4841] mt-1 rounded-md absolute top-[80px] right-[-30px]"></div>
+                                        <div class="project-5-cloud-9 w-[13px] h-[3px] bg-[#4B4841] mt-1 rounded-md absolute top-[120px] right-[-30px]"></div>
+                                        <div class="project-5-cloud-10 w-[20px] h-[3px] bg-[#4B4841] mt-1 absolute rounded-md top-[110px] right-[-30px]"></div>
+                                        <div class="project-5-cloud-11 w-[12px] h-[3px] bg-[#4B4841] mt-1 rounded-md absolute top-[240px] right-[-30px]"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-6">
+                    <div class="project-6-container size-full rounded-md bg-[#2c3e50] flex flex-col justify-center items-center gap-8">
+                        <div class="project-6-center relative w-[200px] h-[200px] rounded-full">
+                            <svg class="project-6-icon-mail absolute w-[120px] h-[70px]">
+                                <polyline points="119,1 119,69 1,69 1,1"></polyline>
+                                <polyline points="119,1 60,45 1,1 119,1"></polyline>
+                            </svg>
+                            <svg class="project-6-icon-plane absolute w-[120px] h-[107px]">
+                                <polyline points="119,1 1,59 106,80 119,1"></polyline>
+                                <polyline points="119,1 40,67 43,105 69,73"></polyline>
+                            </svg>
+                            <div class="project-6-circle w-full h-full rounded-full absolute bg-[#354A5F]"></div>
+                            <div class="project-6-circle-border w-full h-full rounded-full bg-transparent border-4 border-[#354A5F]"></div>
+                        </div>
+                        <div class="project-6-btn-contianers w-full flex justify-center">
+                            <button class="project-6-send w-[200px] h-[40px] text-center bg-white rounded-3xl capitalize font-medium text-[#2c3e50] hover:bg-[#1abc9c] hover:text-white text-[15px] absolute"><span>send mail</span></button>
+                            <button class="project-6-reset w-[40px] h-[40px] text-center bg-white rounded-3xl font-medium text-[#2c3e50] hover:bg-[#1abc9c] hover:text-white text-[15px] absolute"><span >Reset</span></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-7">
+                    <div class="project-7-container size-full pt-[90px] bg-[#4CB6DE] rounded-md">
+                        <div class="project-7-script w-full h-full pr-[30px] pl-[30px] relative">
+                            <p class="project-7-text text-[24px] text-white pr-[10px]">
+                                I know quite certainly that I myself have no special talent; curiosity,
+                                <span class="bg-[#286F8A] pr-1 pb-[5px] pl-[8px] project-7-word relative cursor-pointer mr-[5px]">
+                                    obsession
+                                    <span class="project-7-word-card w-[300px] cursor-pointer absolute flex flex-col text-[16px] left-[50%] opacity-0"> <!--hover top 145px -->
+                                        <span class="project-7-word-pronunciation w-full h-[34px] bg-white text-[#286F8A] pl-[17px] leading-[34px] flex items-center gap-3">
+                                            [əbˈseʃ(ə)n]
+                                            <i class="project-7-volume-icon material-symbols-outlined text-[14px]">volume_down_alt</i>
+                                        </span>
+                                        
+                                        <span class="project-7-word-info w-full h-[95px] bg-[#286F8A] pl-[17px] pt-[8px]">
+                                            <b>obsession</b>, a persistent disturbing preocuupation with an often unreasonable idea or feeling.
+                                        </span>
+                                    </span>
+                                </span>
+                                and dogged endurance, combined with self-criticism have brought
+                                me to my ideas.
+                            </p>
+                            <p class="project-7-author-name text-[20px] font-light italic text-white mt-[20px]">
+                                Albert Einstein
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-8 flex flex-col items-center bg-[#E16D6C]">
+                    <div class="project-8-container size-[400px] bg-[#E16D6C] relative p-8">
+                        <div class="project-8-circle size-[50px] absolute rounded-full bg-white left-[50%] top-[50%]"></div>
+                        <div class="project-8-lines">
+                            <div class="project-8-straigth-line absolute rounded-md h-[4px] bg-white"></div>
+                            <div class="project-8-left-line absolute bg-white rounded-tl-md rounded-bl-md w-[168px] h-[4px] left-[32px] top-[50%] translate-y-[-50%]"></div>
+                            <div class="project-8-right-line absolute bg-white rounded-tr-md rounded-br-md w-[168px] h-[4px] right-[32px] top-[50%] translate-y-[-50%]"></div>
+                        </div>
+                        <div class="project-8-brackets w-full h-[100px] absolute">
+                            <div class="project-8-left-bracket absolute w-[4px] left-[32px]">
+                                <div class="project-8-left-bracket-after"></div>
+                                <div class="project-8-left-bracket-before"></div>
+                            </div>
+                            <div class="project-8-right-bracket absolute w-[4px] right-[32px]">
+                                <div class="project-8-right-bracket-after"></div>
+                                <div class="project-8-right-bracket-before"></div>
+                            </div>
+                        </div>
+                        <div class="project-8-text w-[90%] h-[100px] relative left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] flex flex-col justify-center items-center">
+                            <span class="project-8-collect text-[30px] text-white font-inter-l absolute top-[-20px] uppercase">collect</span>
+                            <span class="project-8-moments text-[50px] font-extrabold text-white tracking-[4px] uppercase">moments</span>
+                            <span class="project-8-nothing text-[30px] text-white font-inter-l absolute bottom-[-20px]">Not Things</span>
+                        </div>
+                    </div>
+                    <div class="project-8-btn-container w-[150px] h-[50px] border-2 border-white rounded-[20px] text-[20px] font-inter-sb overflow-hidden relative">
+                        <button class="project-8-play-btn size-full text-inherit">Play</button>
+                    </div>
+                </div>
+                <div class="project-9">
+                    <div class="project-9-container size-full rounded-md shadow-md bg-[#C7D6E1] flex justify-center items-center">
+                        <div class="project-9-cards-container size-full relative flex justify-center items-center">
+                            <div class="project-9-card-1 w-[300px] h-[200px] overflow-hidden rounded-md absolute">
+                                <div class="project-9-card size-full relative">
+                                    <div class="project-9-card-top w-full h-[150px] px-[10px] py-[20px] bg-white">
+                                        <div class="project-9-card-top-title text-center text-[18px] font-semibold text-[#616E7D] mb-2"><span>The couch</span></div>
+                                        <div class="project-9-card-top-content text-center text-[16px] font-extralight text-[#8391A1] mt-[18px]"><p>If you want to grow, get outside<br>your comfort zone.</p></div>
+                                    </div>
+                                    <div class="project-9-card-fotter w-full h-[50px] bg-[#3CA7FB] hover:bg-[#2196F3] transition">
+                                        <button class="project-9-btn size-full text-[13px] text-white">OK</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-9-card-2 w-[300px] h-[200px] overflow-hidden rounded-md absolute hidden">
+                                <div class="project-9-card w-[300px] h-[200px] relative">
+                                    <div class="project-9-card-top w-full h-[150px] px-[10px] py-[20px] bg-white">
+                                        <div class="project-9-card-top-title text-center text-[18px] font-semibold text-[#616E7D] mb-2"><span>Failing is learning</span></div>
+                                        <div class="project-9-card-top-content text-center text-[16px] font-extralight text-[#8391A1] mt-[18px]"><p>pick yourself up, dust yourself off,<br>and staret again</p></div>
+                                    </div>
+                                    <div class="project-9-card-fotter w-full h-[50px] bg-[#3CA7FB] hover:bg-[#2196F3] transition">
+                                        <button class="project-9-btn size-full text-[13px] text-white">OK</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-9-card-3 w-[300px] h-[200px] overflow-hidden rounded-md absolute hidden">
+                                <div class="project-9-card w-[300px] h-[200px] relative">
+                                    <div class="project-9-card-top w-full h-[150px] px-[10px] py-[20px] bg-white">
+                                        <div class="project-9-card-top-title text-center text-[18px] font-semibold text-[#616E7D] mb-2"><span>Flowers and rainbows</span></div>
+                                        <div class="project-9-card-top-content text-center text-[16px] font-extralight text-[#8391A1] mt-[18px]"><p>Always be yourself,<br>unless you can be a unicorn.</p></div>
+                                    </div>
+                                    <div class="project-9-card-fotter w-full h-[50px] bg-[#3CA7FB] hover:bg-[#2196F3] transition">
+                                        <button class="project-9-btn size-full text-[13px] text-white">OK</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-10">
+                    <div class="project-10-container size-full bg-gradient-to-tr from-[#3A92Af] to-[#5CA05A] flex justify-center items-center">
+                        <div class="project-10-drop-box w-[300px] h-[260px] bg-white rounded-[20px]">
+                            <div class="project-10-title w-full h-[50px] flex justify-center items-center relative">
+                                <p class="project-10-title-text w-full text-[16px] text-center text-[#676767]">Drop file to upload</p>
+                                <div class="project-10-loading-bar"></div>
+                            </div>
+                            <div class="project-10-content w-full h-[210px] flex flex-col items-center justify-evenly">
+                                <div class="project-10-upload-container w-[98px] h-[78px]">
+                                    <label for="upload-input" class="project-10-input-label w-[98px] h-[78px] flex justify-center items-center border border-dashed border-[#676767] cursor-pointer relative">
+                                        <img class="project-10-img" id="upload-img" src="https://100dayscss.com/codepen/upload.svg">
+                                        <img class="project-10-img opacity-0" id="verified-img" src="https://100dayscss.com/codepen/syncing.svg">
+                                        <img class="project-10-img opacity-0" id="checking-img" src="https://100dayscss.com/codepen/checkmark.svg">
+                                        <span class="project-10-img-name absolute w-full h-auto truncate text-sm text-[#676767] p-1"></span>
+                                        <input id="upload-input" class="w-full h-full absolute opacity-0 cursor-pointer" type="file" class="opacity-0">
+                                    </label>
+                                </div>
+                                <div class="project-10-upload-btn-container w-full h-[40px] flex justify-center items-center">
+                                    <button class="project-10-upload-btn w-[140px] h-[40px] bg-[#6ECE3B] text-white flex justify-center items-center rounded-md cursor-pointer text-[16px]">Upload file</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-11">
+                    <div class="project-11-container size-full rounded-md shadow-md bg-[#57D895] flex justify-center items-center">
+                        <div class="project-11-finish-btn w-[260px] h-[60px] rounded-full border-2 relative tracking-widest font-medium  cursor-pointer">
+                            <span class="project-11-text uppercase text-[20px] text-white top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] absolute">finish</span>
+                            <svg class="project-11-circle-container size-[60px] rounded-full absolute top-[50%] translate-y-[-50%] left-[50%] translate-x-[-50%]">
+                                <circle class="project-11-circle" cx="30" cy="30" r="29"></circle>
+                            </svg>
+                            <div class="project-11-border-animation size-[60px] bg-transparent border-3 rounded-full absolute project-11-center"></div>
+                            <i class="project-11-check-icon material-symbols-outlined absolute project-11-center text-[30px] text-white">check</i>
+                        </div> 
+                    </div>
+                </div>
+                <div class="project-12">
+                    <div class="project-12-container size-full rounded-[20px] shadow-md bg-[#fdca31e4] flex justify-center items-center">
+                        <div class="project-12-todo-container w-[300px] h-[350px] bg-white rounded-[20px] flex flex-col justify-center items-center p-[30px]">
+                            <div class="project-12-todo-top-section w-full h-[20%] text-center relative flex flex-col">
+                                <div class="project-12-day-text size-full">
+                                    <p class="text-[20px] text-[#497081] font-semibold tracking-[1px]">Friday</p>
+                                </div>
+                                <div class="project-12-date"><p class="text-[14px] text-[#497081] font-extralight"> March 4, 2016 </p></div>
+                            </div>
+                            <div class="project-12-todo-bottom-section w-full h-[80%] py-[20px] mt-[20px]">
+                                <div class="project-12-task-container size-full flex flex-col gap-[20px] items-start">
+                                    <div class="project-12-task-1">
+                                        <div class="project-12-task-name font-inter-m">
+                                            <p>Create a list</p>
+                                        </div>
+                                        <div class="project-12-task-checkbox relative">
+                                            <div class="project-12-check"></div>
+                                            <span class="material-symbols-outlined text-[#497081] absolute">check</span>
+                                        </div>
+                                    </div>
+                                    <div class="project-12-task-2">
+                                        <div class="project-12-task-name font-inter-m">
+                                            <p>Complete first task</p>
+                                        </div>
+                                        <div class="project-12-task-checkbox relative">
+                                            <div class="project-12-check"></div>
+                                            <span class="material-symbols-outlined text-[#497081] absolute">check</span>
+                                        </div>
+                                    </div>
+                                    <div class="project-12-task-3">
+                                        <div class="project-12-task-name font-inter-m">
+                                            <p>Write some CSS codes</p>
+                                        </div>
+                                        <div class="project-12-task-checkbox relative">
+                                            <div class="project-12-check"></div>
+                                            <span class="material-symbols-outlined text-[#497081] absolute">check</span>
+                                        </div>
+                                    </div>
+                                    <div class="project-12-task-4">
+                                        <div class="project-12-task-name font-inter-m">
+                                            <p>Amaze the world</p>
+                                        </div>
+                                        <div class="project-12-task-checkbox relative">
+                                            <div class="project-12-check"></div>
+                                            <span class="material-symbols-outlined text-[#497081] absolute">check</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="show-more-project w-[220px] h-[65px] border-2 rounded-[20px] relative justify-items-center mt-[20px] x-center">
+                <button class="show-more-btn size-full text-[2.4rem] font-inter-sb hover:bg-white hover:text-black rounded-[17px]">Show More</button>
+                <div class="down-arrows-container absolute size-[35px] bottom-[-35px] x-center flex justify-center items-center top-[75px]">
+                    <i class="down-arrow-icon-1 absolute top-[8px]"></i>
+                    <i class="down-arrow-icon-2 absolute top-[20px]"></i>
+                </div>
+            </div>
+        </div>
+        <!-- contact codes -->
+        <div id="contact" class="contact-container w-full h-dvh relative p-[2rem] flex mt-[30px] pt-[50px]">
+            <div class="contact-container-left-side w-[50%] h-full relative">
+                <div class="contact-texts absolute top-[150px] ">
+                    <p class="contact-tilte text-[4.8rem] font-inter-sb">Contact Me</p>
+                    <p class="contact-description text-[2.4rem] mt-[50px]">Feel free to reachout for collaborations, or just a friendly hello!</p>
+                </div>
+                <div class="contact-ways-container flex flex-col gap-[20px] absolute bottom-[200px]">
+                    <!-- email codes -->
+                    <div class="email-container flex items-center gap-[20px]">
+                        <img class="email-icon w-[45px] h-auto" src="../images & videos/envelope-white.svg">
+                        <span class="email-text text-[1.8rem]">mohammad.amini@gamil.com</span>
+                    </div>
+                    <!-- phone codes -->
+                    <div class="phone-container flex items-center gap-[10px]">
+                        <img class="phone-icon w-[45px] h-auto" src="../images & videos/teloephone-white.svg">
+                        <span class="phone-text text-[1.8rem]">+98 9121234567</span>
+                    </div>
+                    <div class="location-container flex items-center gap-[10px]">
+                    <!-- location codes -->
+                        <img class="location-icon w-[45px] h-auto" src="../images & videos/location-white.svg">
+                        <span class="location-text text-[1.8rem]">Tehran, Tajrish Golabdareh 14</span>
+                    </div>
+                </div>
+                <!-- social media codes -->
+                <div class="social-media-container flex gap-[50px] absolute bottom-[100px]">
+                    <a class="instagram-icon size-[40px] inline-block" href=""><img class="size-full" src="../images & videos/instagram-white.svg" alt=""></a>
+                    <a class="telegram-icon size-[40px] inline-block" href=""><img class="size-full" src="../images & videos/telegram-white.svg" alt=""></a>
+                    <a class="whatsapp-icon size-[40px] inline-block" href=""><img class="size-full" src="../images & videos/whatsapp-white.svg" alt=""></a>
+                    <a class="linkedln-icon size-[40px] inline-block" href=""><img class="size-full" src="../images & videos/linkedln-white.svg" alt=""></a>
+                </div>
+            </div>
+            <!-- contact codes -->
+            <div class="contact-container-right-side w-[50%] h-full relative">
+                <div class="contact-form-container w-[500px] h-[768px] rounded-[20px] absolute y-center right-0 px-[3rem] flex flex-col justify-evenly">
+                    <p class="form-title text-[2.4rem] h-[10%] mt-[30px] text-center relative">Get in Touch</p>
+                    <div class="form-inputs-container w-full h-[60%] flex flex-col justify-around">
+                        <div class="user-name-input-container flex flex-col gap-[10px]"> 
+                            <label class="user-name-text text-[1.8rem]" for="user-name">Name</label>
+                            <input id="user-name" type="text" class="name-input w-full h-[60px] rounded-[15px] text-white bg-gray-300/10 text-[1.8rem] pl-[1rem] capitalize outline-none">
+                        </div>
+                        <div class="user-email-input-container flex flex-col gap-[10px] my-[2rem]">
+                            <label for="user-email" class="text-[1.8rem]">Email</label>
+                            <input id="user-email" type="email" class="user-email-input w-full h-[60px] rounded-[15px] text-white bg-gray-300/10 text-[1.8rem] pl-[1rem] outline-none">
+                        </div>            
+                        <textarea name="user-message" id="" class="user-message-container w-full h-[190px] text-white bg-gray-300/10 text-[1.6rem] p-[1rem] rounded-[15px] outline-none" placeholder="message ..."></textarea>
+                    </div>
+                    <div class="submit-btn-container w-full h-[10%] bg-gray-300/10 rounded-[15px]">
+                        <button class="submit text-[1.8rem] size-full  text-white font-inter-sb hover:bg-white hover:text-gray-900 transition rounded-[17px]" type="submit">Submit</button>
+                    </div>
+                </div>
+            </div>
+            <div class="author-section w-full absolute left-[50%] translate-x-[-50%] bottom-0">
+                <p class="author text-center font-inter-r text-[1.4rem]">© 2025 All rights reserved.<br> Designed and developed by Mohammad Amini.</p>
+            </div>
+        </div>
+        <!-- author codes -->
+    
+</body>
+</html>
